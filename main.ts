@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 2; index++) {
         basic.showNumber(sekunde)
         basic.pause(1000)
         sekunde = sekunde - 1
@@ -31,7 +31,6 @@ let sekunde = 0
 sekunde = 5
 pokrenuto = 0
 izabrano = 0
-let randomBroj = 0
 basic.showString("S")
 basic.forever(function () {
     if (pokrenuto == 2) {
