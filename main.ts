@@ -28,7 +28,7 @@ input.onGesture(Gesture.Shake, function () {
 let izabrano = 0
 let pokrenuto = 0
 let sekunde = 0
-sekunde = 5
+sekunde = 2
 pokrenuto = 0
 izabrano = 0
 basic.showString("S")
